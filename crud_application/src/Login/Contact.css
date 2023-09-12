@@ -1,6 +1,7 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Headland+One&family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans&display=swap');
 
+
 .main-contact{
     display: flex;
     justify-content: center;
@@ -13,6 +14,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    
 }
 .div-main{
     background-image: linear-gradient(to right,
@@ -23,22 +25,23 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    width: 75%;
-    /* height: 100vh; */
+    width: 70%;
     display: flex;
     justify-content: center;
+    box-shadow: #c473ec 0px 6px 12px -2px, #e25b64 0px 3px 7px -3px;
 }
 .container-contact{
-    width: 60%;
+    width: 50%;
     background-image: linear-gradient(to right,
-    #e8d4f4,
-    #f6dcde),
+    #e5c6f7,
+    #fcd5d8),
         url("/public/images/6346.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     height: 100vh;
+    box-shadow: #cb6afb 0px 6px 12px -2px, #f55964 0px 3px 7px -3px;
 }
 .content{
     display: flex;
@@ -51,7 +54,7 @@
    display: flex;
    flex-direction: column;
    gap: 3rem;
-   width: 50%;
+   width: 70%;
 }
 .heading-contact{
     font:2.3rem 'Montserrat', sans-serif;

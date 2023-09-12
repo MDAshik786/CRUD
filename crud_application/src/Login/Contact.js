@@ -6,6 +6,7 @@ import { BsFillChatSquareTextFill } from 'react-icons/bs';
 
 const Contact = () => {
   return (
+    <div className='contact-'>
     <main className='main-contact'>
       <div className='div-main'>
         <div className='container-contact'>
@@ -44,13 +45,14 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div className="building-img">
+            {/* <div className="building-img">
                 <img src="/images/Three_Eras_-_Houston.jpg" alt="" width={400} height={570}/>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
     </main>
+    </div>
   );
 };
 
